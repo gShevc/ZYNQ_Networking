@@ -56,6 +56,9 @@
 `timescale 1ns/1ps
 
 module design_1_processing_system7_0_0 (
+TTC0_WAVE0_OUT, 
+TTC0_WAVE1_OUT, 
+TTC0_WAVE2_OUT, 
 USB0_PORT_INDCTL, 
 USB0_VBUS_PWRSELECT, 
 USB0_VBUS_PWRFAULT, 
@@ -98,6 +101,7 @@ M_AXI_GP0_RID,
 M_AXI_GP0_BRESP, 
 M_AXI_GP0_RRESP, 
 M_AXI_GP0_RDATA, 
+IRQ_F2P, 
 FCLK_CLK0, 
 FCLK_RESET0_N, 
 MIO, 
@@ -122,6 +126,9 @@ PS_SRSTB,
 PS_CLK, 
 PS_PORB 
 );
+output TTC0_WAVE0_OUT;
+output TTC0_WAVE1_OUT;
+output TTC0_WAVE2_OUT;
 output [1 : 0] USB0_PORT_INDCTL;
 output USB0_VBUS_PWRSELECT;
 input USB0_VBUS_PWRFAULT;
@@ -164,6 +171,7 @@ input [11 : 0] M_AXI_GP0_RID;
 input [1 : 0] M_AXI_GP0_BRESP;
 input [1 : 0] M_AXI_GP0_RRESP;
 input [31 : 0] M_AXI_GP0_RDATA;
+input [0 : 0] IRQ_F2P;
 output FCLK_CLK0;
 output FCLK_RESET0_N;
 input [53 : 0] MIO;
@@ -576,7 +584,7 @@ input PS_PORB;
     .FCLK_RESET1_N(),
     .FCLK_RESET2_N(),
     .FCLK_RESET3_N(),
-    .IRQ_F2P(16'B0),
+    .IRQ_F2P(IRQ_F2P),
     .PS_SRSTB(PS_SRSTB),
     .PS_CLK(PS_CLK),
     .PS_PORB(PS_PORB)

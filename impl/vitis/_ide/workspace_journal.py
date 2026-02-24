@@ -1,23 +1,16 @@
-# 2026-02-24T10:56:57.975770
+# 2026-02-24T15:47:03.266627200
 import vitis
 
 client = vitis.create_client()
 client.set_workspace(path="vitis")
 
-platform = client.create_platform_component(name = "platform_uart",hw_design = "$COMPONENT_LOCATION/../../zynqNetwork/design_1_wrapper_uart.xsa",os = "standalone",cpu = "ps7_cortexa9_0",domain_name = "standalone_ps7_cortexa9_0",compiler = "gcc")
+client.delete_component(name="platform_ethernet")
 
-comp = client.create_app_component(name="hello_world",platform = "$COMPONENT_LOCATION/../platform_uart/export/platform_uart/platform_uart.xpfm",domain = "standalone_ps7_cortexa9_0",template = "hello_world")
+client.delete_component(name="platform_ethernet")
 
-comp = client.get_component(name="hello_world")
-comp.build()
+client.delete_component(name="platform_test")
 
-platform = client.get_component(name="platform_uart")
-status = platform.build()
+client.delete_component(name="platform_uart")
 
-comp.build()
-
-comp = client.create_app_component(name="zynq_dram_test",platform = "$COMPONENT_LOCATION/../platform_uart/export/platform_uart/platform_uart.xpfm",domain = "standalone_ps7_cortexa9_0",template = "zynq_dram_test")
-
-comp = client.get_component(name="zynq_dram_test")
-comp.build()
+client.delete_component(name="componentName")
 
