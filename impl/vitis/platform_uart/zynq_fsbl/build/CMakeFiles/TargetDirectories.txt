@@ -1,0 +1,4 @@
+C:/Users/germa/Documents/projects/FPGA/zynqNetworking/impl/vitis/platform_uart/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/Users/germa/Documents/projects/FPGA/zynqNetworking/impl/vitis/platform_uart/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+C:/Users/germa/Documents/projects/FPGA/zynqNetworking/impl/vitis/platform_uart/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/Users/germa/Documents/projects/FPGA/zynqNetworking/impl/vitis/platform_uart/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

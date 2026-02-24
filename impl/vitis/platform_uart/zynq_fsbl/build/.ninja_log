@@ -1,0 +1,16 @@
+# ninja log v5
+4	250	0	CMakeFiles/print_build_info	1f72511720a7b6de
+4	250	0	C:/Users/germa/Documents/projects/FPGA/zynqNetworking/impl/vitis/platform_uart/zynq_fsbl/build/CMakeFiles/print_build_info	1f72511720a7b6de
+307	464	7936524069735266	CMakeFiles/fsbl.elf.dir/rsa.c.obj	16e2fc25b68119b
+250	480	7936524069776870	CMakeFiles/fsbl.elf.dir/fsbl_handoff.S.obj	f226f63244b2ca55
+262	482	7936524069796959	CMakeFiles/fsbl.elf.dir/image_mover.c.obj	15bdc9348daa583b
+255	482	7936524069899525	CMakeFiles/fsbl.elf.dir/fsbl_hooks.c.obj	21125291a4fc1efd
+282	496	7936524070024754	CMakeFiles/fsbl.elf.dir/nand.c.obj	735154b17d2302f1
+287	497	7936524070094854	CMakeFiles/fsbl.elf.dir/nor.c.obj	4b25713abafce6ca
+294	498	7936524070104765	CMakeFiles/fsbl.elf.dir/pcap.c.obj	e995def17e9406db
+268	499	7936524070094854	CMakeFiles/fsbl.elf.dir/main.c.obj	583819a3086d8b5e
+299	502	7936524070194881	CMakeFiles/fsbl.elf.dir/qspi.c.obj	86c68e46d356fb2d
+276	505	7936524070224858	CMakeFiles/fsbl.elf.dir/md5.c.obj	e9b462bab26057c0
+313	505	7936524070224858	CMakeFiles/fsbl.elf.dir/sd.c.obj	4bb046dae716567
+318	531	7936524070503244	CMakeFiles/fsbl.elf.dir/ps7_init.c.obj	fe1972a87b114f4d
+531	1738	7936524072698110	fsbl.elf	f5fe6013ec0618d4
