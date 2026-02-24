@@ -1,3 +1,4 @@
 {
-    "vitis.build.application –PlatformBuildDependency": "never"
+    "vitis.build.application –PlatformBuildDependency": "never",
+    "clangd.fallbackFlags": []
 }

@@ -16,3 +16,8 @@ status = platform.build()
 
 comp.build()
 
+comp = client.create_app_component(name="zynq_dram_test",platform = "$COMPONENT_LOCATION/../platform_uart/export/platform_uart/platform_uart.xpfm",domain = "standalone_ps7_cortexa9_0",template = "zynq_dram_test")
+
+comp = client.get_component(name="zynq_dram_test")
+comp.build()
+

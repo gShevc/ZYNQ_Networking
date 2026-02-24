@@ -1,0 +1,4 @@
+domain_path: C:\Users\germa\Documents\projects\FPGA\zynqNetworking\impl\vitis\platform_uart\export\platform_uart\sw\standalone_ps7_cortexa9_0
+app_src_dir: C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw\lib\sw_apps\zynq_dram_test
+template: zynq_dram_test
+lang: c
